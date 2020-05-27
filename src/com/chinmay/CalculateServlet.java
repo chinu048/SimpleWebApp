@@ -10,6 +10,11 @@ import javax.servlet.http.HttpServletResponse;
 
 public class CalculateServlet extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public void service(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
 		int val1 = Integer.parseInt(req.getParameter("num1"));
